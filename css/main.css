@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(90deg, rgba(4, 77, 235, 0.329) 0%, rgba(248, 4, 167, 0.486) 35%, rgb(255, 123, 0) 100%);
+    
+}
+
+.container_picture {
+    float:right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container_picture2{
+    float:left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.container_picture img{
+
+   
+    
+        height:auto;
+        margin-left:250px;
+        margin-bottom:50px;
+        border:5px solid orangered;
+        transform:scale(1,1);transition: all 1s ease-out;
+    }
+    
+.container_picture img:hover{transform:scale(1.2,1.2);
+    }
+
+    #context{
+        background-color:rgba(0, 132, 255, 0.452);
+       clear:both; /*清除浮動的影響*/
+       width:800px;
+       /* text-align:justify; */
+       margin-left:auto;
+       margin-right:auto;
+       font-size: 30px;   
+       /*columns:auto 2; 欗框 欄數*/
+       /*columns:100px auto;*/
+       column-count:3; /*欄位數量*/
+       column-gap:30px; /*欄位間隔*/ 
+       column-rule-width:2px;
+       column-rule-color:#999;
+       column-rule-style:dotted;
+       
+       background:-webkit-gradient(radial,50% 30%,20,50% 20%,60,from(crimson),to(rgba(255, 136, 0, 0.322)),color-stop(50%,rgba(0, 0, 255, 0.301)));
+       /*webkit-gradient(種類 開始位置xy 起始半徑 終點xy 終點半徑 from顏色顏色 color-stop(位置 顏色)*/
+       /*background:-webkit-linear-gradient(top,rgb(255, 0, 157),rgb(0, 255, 98)); */
+   }
+   
+   
+   /*i.fab{
+   
+       font-size:80px;
+       color:floralwhite;
+       display:block; /*block(框與框上下堆疊)、inline(具有箱型屬性)、inline-block(框與框左右堆疊)、none、list_item最常用 */
+   /*	float:left;
+       visibility: hidden;
+   }*/
+   
+  #context img{
+  
+   height:auto ;
+   vertical-align: middle;
+   
+   }
+   #context p{
+       font-family: 'Courier New', Courier, monospace;
+       color:black;
+       font-size:18px;
+   }
+   #context h1+p:first-letter{
+       color:blue;
+       font-size:50px;
+       float:left;
+       display:inline-block; 
+       margin-right:10px;
+   }
+   
+   #context p:first-line{
+       color:blue;
+   }
+
+
+   #context h1{
+       font-family:'Times New Roman', Times, serif; 
+       color:yellow;
+       font-size:24px;
+       column-span:all; /*只有兩個值1(一個欄位) or all(橫跨欄位)*/
+       background-color:#39C;
+       counter-increment:h1_counter 1;
+   
+   }
+   #context h1::before{
+       /*color:borwn;
+       font-size:20px;
+       content:"*'\'";*/
+       /*content:url("img/Yh7Uy0rn7j.jpg");*/
+       content:counter(h1_counter,upper-alpha)". ";
+       /*check list style type on web 用來指定清單*/
+   }
+
+ 
+ 
