@@ -31,7 +31,7 @@ body {
     #context{
         background-color:rgba(0, 132, 255, 0.452);
        clear:both; /*清除浮動的影響*/
-       width:800px;
+       width:1200px;
        /* text-align:justify; */
        margin-left:auto;
        margin-right:auto;
@@ -39,7 +39,7 @@ body {
        /*columns:auto 2; 欗框 欄數*/
        /*columns:100px auto;*/
        column-count:3; /*欄位數量*/
-       column-gap:30px; /*欄位間隔*/ 
+       column-gap:60px; /*欄位間隔*/ 
        column-rule-width:2px;
        column-rule-color:#999;
        column-rule-style:dotted;
