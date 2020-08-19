@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg, rgba(33, 42, 59, 0.329) 0%, rgba(129, 109, 123, 0.363) 35%, rgba(243, 162, 86, 0.295) 100%);
+    background: linear-gradient(90deg, rgba(4, 77, 235, 0.329) 0%, rgba(248, 4, 167, 0.486) 35%, rgb(255, 123, 0) 100%);
     
 }
 
@@ -21,7 +21,7 @@ body {
         height:auto;
         margin-left:250px;
         margin-bottom:50px;
-        border:5px solid rgba(255, 68, 0, 0.247);
+        border:5px solid orangered;
         transform:scale(1,1);transition: all 1s ease-out;
     }
     
@@ -29,9 +29,9 @@ body {
     }
 
     #context{
-        background-color:rgba(0, 238, 255, 0.062);
+        background-color:rgba(0, 132, 255, 0.452);
        clear:both; /*清除浮動的影響*/
-       width:1100px;
+       width:1200px;
        /* text-align:justify; */
        margin-left:30px;
        margin-right:30px;
@@ -44,7 +44,7 @@ body {
        column-rule-color:#999;
        column-rule-style:dotted;
        
-       background:-webkit-gradient(radial,50% 30%,20,50% 20%,60,from(rgba(134, 45, 63, 0.178)),to(rgba(255, 136, 0, 0.322)),color-stop(50%,rgba(59, 59, 82, 0.301)));
+       background:-webkit-gradient(radial,50% 30%,20,50% 20%,60,from(crimson),to(rgba(255, 136, 0, 0.322)),color-stop(50%,rgba(0, 0, 255, 0.301)));
        /*webkit-gradient(種類 開始位置xy 起始半徑 終點xy 終點半徑 from顏色顏色 color-stop(位置 顏色)*/
        /*background:-webkit-linear-gradient(top,rgb(255, 0, 157),rgb(0, 255, 98)); */
    }
